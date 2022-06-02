@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in exercise_2, no dependencies
+exercise_2 in exercise_2, depends on:
+ZERO_CHECK in exercise_2 (explicit)
+ALL_BUILD in exercise_2, depends on:
+ZERO_CHECK in exercise_2 (explicit)
+exercise_2 in exercise_2 (explicit)

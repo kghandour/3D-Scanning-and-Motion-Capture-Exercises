@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6ABD386509F345ABB2CAD560 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9E8C8FB1160842C89DF877AA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B471E46ADBEDF4740B2DE0FF /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				1740EC79DA994E33980BAB26 /* PBXTargetDependency */,
+				5BB1761791EC41C6A620E104 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B301628737C14B17A1EABE01 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C59D4501C3764FBC81068531 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F8DE973081FE399759293A20 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3DF821E5AC4D4EA0A5BEC1F9 /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/ImplicitSurface.h */ = {isa = PBXBuildFile; fileRef = 3267F06E6DC446EA83B1BC0B /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/ImplicitSurface.h */; };
+		7D30177092664811930CBF1E /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/Eigen.h */ = {isa = PBXBuildFile; fileRef = 78E3FCF50EB9401C93CE044C /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/Eigen.h */; };
+		839B134548A44C5AAA885FC8 /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/Volume.cpp */ = {isa = PBXBuildFile; fileRef = 2714E7B6EB84466EA3CA1169 /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/Volume.cpp */; };
+		9EE3A6FD93114AE7B52D2240 /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/MarchingCubes.h */ = {isa = PBXBuildFile; fileRef = 1AA3A50CF5E54476ABD5799C /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/MarchingCubes.h */; };
+		C472999D902A46D3A88132D1 /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/Volume.h */ = {isa = PBXBuildFile; fileRef = B819FCDDD70548659C5BF5BC /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/Volume.h */; };
+		D3F71264594246C998BB63A9 /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0E1B3142FBF448CFBFD4014F /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/CMakeLists.txt */; };
+		F0488E70DCB542BAB673321C /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/main.cpp */ = {isa = PBXBuildFile; fileRef = 340C63F3927F4CBBA368A878 /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		195BF5E8DF6F4B6C867CD43D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		6BD2BEB943A0426EA91FF000 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2A61C6D9047343C393A2B9FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D0421BFEB91434BAF9FCA28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B301628737C14B17A1EABE01;
+			remoteInfo = ZERO_CHECK;
+		};
+		772D83900678462AA4574E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D0421BFEB91434BAF9FCA28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B301628737C14B17A1EABE01;
+			remoteInfo = ZERO_CHECK;
+		};
+		CC43E54052FC4ACCBCFCA277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D0421BFEB91434BAF9FCA28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21C3DF222F074BFDA59A2494;
+			remoteInfo = exercise_2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E1B3142FBF448CFBFD4014F /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1AA3A50CF5E54476ABD5799C /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/MarchingCubes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MarchingCubes.h; path = MarchingCubes.h; sourceTree = SOURCE_ROOT; };
+		2368770254D94F9CA3068318 /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2714E7B6EB84466EA3CA1169 /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/Volume.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Volume.cpp; path = Volume.cpp; sourceTree = SOURCE_ROOT; };
+		3267F06E6DC446EA83B1BC0B /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/ImplicitSurface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImplicitSurface.h; path = ImplicitSurface.h; sourceTree = SOURCE_ROOT; };
+		340C63F3927F4CBBA368A878 /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		78E3FCF50EB9401C93CE044C /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/Eigen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Eigen.h; path = Eigen.h; sourceTree = SOURCE_ROOT; };
+		B819FCDDD70548659C5BF5BC /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/Volume.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Volume.h; path = Volume.h; sourceTree = SOURCE_ROOT; };
+		C67EC008C1B444C883ECFF1B /* exercise_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = exercise_2; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37B641C3D3854D4FA8FD2B93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		327FF5F634D24B8884C810AB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2714E7B6EB84466EA3CA1169 /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/Volume.cpp */,
+				340C63F3927F4CBBA368A878 /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3A0DCF1199174B299652EFE3 = {
+			isa = PBXGroup;
+			children = (
+				6600004061CA459F94175DD7 /* exercise_2 */,
+				D591479BF01A4B8A91AA2BE9 /* ALL_BUILD */,
+				49C09D1810EB46C193F7AEAF /* Products */,
+				C8A7CB8469604E039F5D0C1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49C09D1810EB46C193F7AEAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C67EC008C1B444C883ECFF1B /* exercise_2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58969541EDCE4FA8BB318B85 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5C559C39FF164604B5A194D3 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				78E3FCF50EB9401C93CE044C /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/Eigen.h */,
+				3267F06E6DC446EA83B1BC0B /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/ImplicitSurface.h */,
+				1AA3A50CF5E54476ABD5799C /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/MarchingCubes.h */,
+				B819FCDDD70548659C5BF5BC /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/Volume.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		6600004061CA459F94175DD7 /* exercise_2 */ = {
+			isa = PBXGroup;
+			children = (
+				5C559C39FF164604B5A194D3 /* Header Files */,
+				327FF5F634D24B8884C810AB /* Source Files */,
+				0E1B3142FBF448CFBFD4014F /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/CMakeLists.txt */,
+			);
+			name = exercise_2;
+			sourceTree = "<group>";
+		};
+		C8A7CB8469604E039F5D0C1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D591479BF01A4B8A91AA2BE9 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				58969541EDCE4FA8BB318B85 /* CMake Rules */,
+				2368770254D94F9CA3068318 /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21C3DF222F074BFDA59A2494 /* exercise_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68AA7454FE1F41B89C49E0B2 /* Build configuration list for PBXNativeTarget "exercise_2" */;
+			buildPhases = (
+				FF83F78AC9084B88B8B12044 /* Sources */,
+				37B641C3D3854D4FA8FD2B93 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDDACA8EFFBE432B966B2D3D /* PBXTargetDependency */,
+			);
+			name = exercise_2;
+			productName = exercise_2;
+			productReference = C67EC008C1B444C883ECFF1B /* exercise_2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D0421BFEB91434BAF9FCA28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1330;
+			};
+			buildConfigurationList = 50F3AAAE59CB4D6CB774B1BB /* Build configuration list for PBXProject "exercise_2" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				195BF5E8DF6F4B6C867CD43D /* Debug */,
+				6BD2BEB943A0426EA91FF000 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3A0DCF1199174B299652EFE3;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				6ABD386509F345ABB2CAD560 /* ALL_BUILD */,
+				B301628737C14B17A1EABE01 /* ZERO_CHECK */,
+				21C3DF222F074BFDA59A2494 /* exercise_2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B471E46ADBEDF4740B2DE0FF /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/kghandour/Projects/3D/Exercises/Exercise-2/Build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kghandour/Projects/3D/Exercises/Exercise-2/Build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kghandour/Projects/3D/Exercises/Exercise-2/Build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		F8DE973081FE399759293A20 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/kghandour/Projects/3D/Exercises/Exercise-2/Build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kghandour/Projects/3D/Exercises/Exercise-2/Build
+  make -f /Users/kghandour/Projects/3D/Exercises/Exercise-2/Build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kghandour/Projects/3D/Exercises/Exercise-2/Build
+  make -f /Users/kghandour/Projects/3D/Exercises/Exercise-2/Build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF83F78AC9084B88B8B12044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839B134548A44C5AAA885FC8 /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/Volume.cpp */,
+				F0488E70DCB542BAB673321C /* /Users/kghandour/Projects/3D/Exercises/Exercise-2/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1740EC79DA994E33980BAB26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B301628737C14B17A1EABE01 /* ZERO_CHECK */;
+			targetProxy = 772D83900678462AA4574E94 /* PBXContainerItemProxy */;
+		};
+		5BB1761791EC41C6A620E104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21C3DF222F074BFDA59A2494 /* exercise_2 */;
+			targetProxy = CC43E54052FC4ACCBCFCA277 /* PBXContainerItemProxy */;
+		};
+		EDDACA8EFFBE432B966B2D3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B301628737C14B17A1EABE01 /* ZERO_CHECK */;
+			targetProxy = 2A61C6D9047343C393A2B9FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12816469D0D0462EA50CF4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-2/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A5F7820225B04EECAAF07150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-2/Build/build";
+			};
+			name = Debug;
+		};
+		BA73A036D2CE438E823ABF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = exercise_2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-2/Build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/kghandour/Projects/3D/Exercises/Libs/Eigen/include/eigen3,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BC21E02D9AD64172AB74BB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = exercise_2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-2/Build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/kghandour/Projects/3D/Exercises/Libs/Eigen/include/eigen3,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BF8E402E33F647C1A23B1426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-2/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C499EC58212148CFB88A4161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-2/Build/build";
+			};
+			name = Release;
+		};
+		D749D2B4CDBA4AA8B92375A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-2/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DD311FFF97E742CC961AD925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-2/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F3AAAE59CB4D6CB774B1BB /* Build configuration list for PBXProject "exercise_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F7820225B04EECAAF07150 /* Debug */,
+				C499EC58212148CFB88A4161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		68AA7454FE1F41B89C49E0B2 /* Build configuration list for PBXNativeTarget "exercise_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC21E02D9AD64172AB74BB42 /* Debug */,
+				BA73A036D2CE438E823ABF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9E8C8FB1160842C89DF877AA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8E402E33F647C1A23B1426 /* Debug */,
+				DD311FFF97E742CC961AD925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C59D4501C3764FBC81068531 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12816469D0D0462EA50CF4AA /* Debug */,
+				D749D2B4CDBA4AA8B92375A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D0421BFEB91434BAF9FCA28 /* Project object */;
+}

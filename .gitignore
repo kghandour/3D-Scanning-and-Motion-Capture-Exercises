@@ -1,0 +1,5 @@
+*.zip
+Libs/
+Data/
+.DS_Store
+*.pdf

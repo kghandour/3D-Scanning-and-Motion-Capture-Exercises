@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in exercise_0, no dependencies
+lib in exercise_0, depends on:
+ZERO_CHECK in exercise_0 (explicit)
+app in exercise_0, depends on:
+lib in exercise_0 (explicit)
+ZERO_CHECK in exercise_0 (explicit)

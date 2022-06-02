@@ -1,0 +1,957 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		78D8B4FD67FD4A19ACDB5F2F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1E80A8BE105040EDA22C3F39 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				0DEBB22D759DF872B493A749 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		A26EBF628DDB45179FEC13B6 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EC0D6D93D4A14478ADE41F4C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6C61522EEF3B2A99B208B935 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				93CC951DD35C4C46B614A9F3 /* PBXTargetDependency */,
+				B2988F95254548DA8DBD984B /* PBXTargetDependency */,
+				552AC748DA1E4720BE17AF70 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2AF9C5EC28B0475B938C6EA8 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 035DE96882244AD3A17C3C71 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/CMakeLists.txt */; };
+		5920E73AD3F2411BBEDFD409 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/constants.h */ = {isa = PBXBuildFile; fileRef = 70E12B3545874A7388A6E517 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/constants.h */; };
+		863BF094FEE347CEBAEF8BBD /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/lib/algo.h */ = {isa = PBXBuildFile; fileRef = 556843A18D2843ADBF113116 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/lib/algo.h */; };
+		A628C6899FB8466DA5E88374 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/util.h */ = {isa = PBXBuildFile; fileRef = 9503FF6D06C848FD8780EA63 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/util.h */; };
+		AF3498F9E1354F52A1AC2786 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/main.cpp */ = {isa = PBXBuildFile; fileRef = B4EC5FCEE9554C78B0B48302 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/main.cpp */; };
+		E2B5B0138F324E60831EA70B /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/lib/algo.cpp */ = {isa = PBXBuildFile; fileRef = 4D583E4265914EB89EEB79C7 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/lib/algo.cpp */; };
+		F7F5E2F7772C456D8898F1AA /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A57C23ABAFED4070A2507EE3 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		73B0C366ED0A4FCCB0991954 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		7AC9B297C17B4A52B3C33C2E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		90209CCD8F4C4B4CA1CEC9CA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9B0C042E2C254839859CA87D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		651CBA4BBD9A4F7B91440091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AB9E317C4A343E6AF2FAAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D8B4FD67FD4A19ACDB5F2F;
+			remoteInfo = ZERO_CHECK;
+		};
+		7F344F8B310746499EBC8EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AB9E317C4A343E6AF2FAAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 263ADACAB43544E4AF6C142C;
+			remoteInfo = lib;
+		};
+		832631D950B545569F864C7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AB9E317C4A343E6AF2FAAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BC35F039A6A4A64A568FF26;
+			remoteInfo = app;
+		};
+		96E7ABFBF67E4DD490DFBF6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AB9E317C4A343E6AF2FAAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D8B4FD67FD4A19ACDB5F2F;
+			remoteInfo = ZERO_CHECK;
+		};
+		DAD913675E6648BF90AD7755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AB9E317C4A343E6AF2FAAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D8B4FD67FD4A19ACDB5F2F;
+			remoteInfo = ZERO_CHECK;
+		};
+		FFC04C47DFE6412C829D225C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AB9E317C4A343E6AF2FAAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 263ADACAB43544E4AF6C142C;
+			remoteInfo = lib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035DE96882244AD3A17C3C71 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		090E966F213A4A0F8089714F /* app */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D583E4265914EB89EEB79C7 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/lib/algo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = algo.cpp; path = lib/algo.cpp; sourceTree = SOURCE_ROOT; };
+		556843A18D2843ADBF113116 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/lib/algo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = algo.h; path = lib/algo.h; sourceTree = SOURCE_ROOT; };
+		70E12B3545874A7388A6E517 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/constants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = constants.h; path = constants.h; sourceTree = SOURCE_ROOT; };
+		7597D86B2AD9486E95196214 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9503FF6D06C848FD8780EA63 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = util.h; path = util.h; sourceTree = SOURCE_ROOT; };
+		A57C23ABAFED4070A2507EE3 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B4EC5FCEE9554C78B0B48302 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		FC8198FB68074C6D8F2994D4 /* lib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08FEE8EF914046C8BF2C79E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2768467B7A79481EA5D9E51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81C7E388A92E44A598D31E7F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				70E12B3545874A7388A6E517 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/constants.h */,
+				9503FF6D06C848FD8780EA63 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/util.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		83E1F7795C4C454296DCFCFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090E966F213A4A0F8089714F /* app */,
+				FC8198FB68074C6D8F2994D4 /* lib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9281A8842E1D4298A549E448 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A7C664832F5D4CD78C32A1F8 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				556843A18D2843ADBF113116 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/lib/algo.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B1F143BD438D41E6A224CF4E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D583E4265914EB89EEB79C7 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/lib/algo.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B6B616E5E99B4867859D6D5C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9281A8842E1D4298A549E448 /* CMake Rules */,
+				7597D86B2AD9486E95196214 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		B926E76E1D174D5A8BB2A6AC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4EC5FCEE9554C78B0B48302 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BBF0A226C70849D6940B7F36 = {
+			isa = PBXGroup;
+			children = (
+				C8732338B7B6483187B64B1F /* lib */,
+				F02770ABD3BC4A94A3E4A88E /* app */,
+				B6B616E5E99B4867859D6D5C /* ALL_BUILD */,
+				83E1F7795C4C454296DCFCFA /* Products */,
+				E677909995584AAFB71F2734 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8732338B7B6483187B64B1F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A7C664832F5D4CD78C32A1F8 /* Header Files */,
+				B1F143BD438D41E6A224CF4E /* Source Files */,
+				035DE96882244AD3A17C3C71 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/CMakeLists.txt */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		E677909995584AAFB71F2734 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F02770ABD3BC4A94A3E4A88E /* app */ = {
+			isa = PBXGroup;
+			children = (
+				B926E76E1D174D5A8BB2A6AC /* Source Files */,
+				81C7E388A92E44A598D31E7F /* Header Files */,
+				A57C23ABAFED4070A2507EE3 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/CMakeLists.txt */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BC35F039A6A4A64A568FF26 /* app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B2869F7DEEB4B17912DC70A /* Build configuration list for PBXNativeTarget "app" */;
+			buildPhases = (
+				C5869FBF6BE34E0CB93A43D0 /* Sources */,
+				08FEE8EF914046C8BF2C79E4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61EE27185E904B9697C261CE /* PBXTargetDependency */,
+				A9FE86B93C034105AFC67CC8 /* PBXTargetDependency */,
+			);
+			name = app;
+			productName = app;
+			productReference = 090E966F213A4A0F8089714F /* app */;
+			productType = "com.apple.product-type.tool";
+		};
+		263ADACAB43544E4AF6C142C /* lib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7637D614BE80427BAC1CE939 /* Build configuration list for PBXNativeTarget "lib" */;
+			buildPhases = (
+				1EA927D56F4143E28C7DA8CC /* Sources */,
+				2768467B7A79481EA5D9E51A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E50BE3129CCC400682A1F1C3 /* PBXTargetDependency */,
+			);
+			name = lib;
+			productName = lib;
+			productReference = FC8198FB68074C6D8F2994D4 /* lib */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AB9E317C4A343E6AF2FAAB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1330;
+			};
+			buildConfigurationList = E0007D7A581340E1B49082A9 /* Build configuration list for PBXProject "exercise_0" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9B0C042E2C254839859CA87D /* Debug */,
+				90209CCD8F4C4B4CA1CEC9CA /* Release */,
+				7AC9B297C17B4A52B3C33C2E /* MinSizeRel */,
+				73B0C366ED0A4FCCB0991954 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = BBF0A226C70849D6940B7F36;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				A26EBF628DDB45179FEC13B6 /* ALL_BUILD */,
+				78D8B4FD67FD4A19ACDB5F2F /* ZERO_CHECK */,
+				1BC35F039A6A4A64A568FF26 /* app */,
+				263ADACAB43544E4AF6C142C /* lib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DEBB22D759DF872B493A749 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kghandour/Projects/3D/Exercises/Exercise-0/Build
+  make -f /Users/kghandour/Projects/3D/Exercises/Exercise-0/Build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kghandour/Projects/3D/Exercises/Exercise-0/Build
+  make -f /Users/kghandour/Projects/3D/Exercises/Exercise-0/Build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/kghandour/Projects/3D/Exercises/Exercise-0/Build
+  make -f /Users/kghandour/Projects/3D/Exercises/Exercise-0/Build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/kghandour/Projects/3D/Exercises/Exercise-0/Build
+  make -f /Users/kghandour/Projects/3D/Exercises/Exercise-0/Build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6C61522EEF3B2A99B208B935 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kghandour/Projects/3D/Exercises/Exercise-0/Build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kghandour/Projects/3D/Exercises/Exercise-0/Build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/kghandour/Projects/3D/Exercises/Exercise-0/Build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/kghandour/Projects/3D/Exercises/Exercise-0/Build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EA927D56F4143E28C7DA8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B5B0138F324E60831EA70B /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/lib/algo.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5869FBF6BE34E0CB93A43D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3498F9E1354F52A1AC2786 /* /Users/kghandour/Projects/3D/Exercises/Exercise-0/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		552AC748DA1E4720BE17AF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78D8B4FD67FD4A19ACDB5F2F /* ZERO_CHECK */;
+			targetProxy = 96E7ABFBF67E4DD490DFBF6A /* PBXContainerItemProxy */;
+		};
+		61EE27185E904B9697C261CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 263ADACAB43544E4AF6C142C /* lib */;
+			targetProxy = 7F344F8B310746499EBC8EA9 /* PBXContainerItemProxy */;
+		};
+		93CC951DD35C4C46B614A9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 263ADACAB43544E4AF6C142C /* lib */;
+			targetProxy = FFC04C47DFE6412C829D225C /* PBXContainerItemProxy */;
+		};
+		A9FE86B93C034105AFC67CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78D8B4FD67FD4A19ACDB5F2F /* ZERO_CHECK */;
+			targetProxy = DAD913675E6648BF90AD7755 /* PBXContainerItemProxy */;
+		};
+		B2988F95254548DA8DBD984B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BC35F039A6A4A64A568FF26 /* app */;
+			targetProxy = 832631D950B545569F864C7A /* PBXContainerItemProxy */;
+		};
+		E50BE3129CCC400682A1F1C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78D8B4FD67FD4A19ACDB5F2F /* ZERO_CHECK */;
+			targetProxy = 651CBA4BBD9A4F7B91440091 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04F0C60B10334DF4B58B3E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0B5307491B79467BA89E98C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/kghandour/Projects/3D/Exercises/Exercise-0/lib","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build/Debug/liblib.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = app;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/kghandour/Projects/3D/Exercises/Libs/Eigen/include/eigen3,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		37E0E2F016674A9E86545E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build/build";
+			};
+			name = Debug;
+		};
+		3BC90A8139F34086B0E2CF27 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/kghandour/Projects/3D/Exercises/Exercise-0/lib","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build/RelWithDebInfo/liblib.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = app;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/kghandour/Projects/3D/Exercises/Libs/Eigen/include/eigen3,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		445C7DFECC1A46D2B99C6D88 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		652EC7FD69F64B2E9EAAD0E4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		68624F993081414CBCFC0B78 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		688942ECBFE340A2B21341A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		69AD1D8C354640CAAB5511A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build/build";
+			};
+			name = Release;
+		};
+		6DD7D84DF40A4A52B93BCA28 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7950FABE4F964216B8918E0E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		863C71C39FC54F0DA5270D8C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9248B5CA5ECD46D9BF961D5C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/kghandour/Projects/3D/Exercises/Exercise-0/lib","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build/MinSizeRel/liblib.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = app;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/kghandour/Projects/3D/Exercises/Libs/Eigen/include/eigen3,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A41EE070564A4615BF5BDF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A84B65ACBEC74E1C8CD79DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BB3F66B6191C4CAF928730F7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build/build";
+			};
+			name = MinSizeRel;
+		};
+		D3456452E064476489F62BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E6E941A481D14BFDA38435D7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ED530B2E53574C67B5162873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/kghandour/Projects/3D/Exercises/Exercise-0/lib","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build/Release/liblib.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = app;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/kghandour/Projects/3D/Exercises/Libs/Eigen/include/eigen3,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FA313E7FE9334B2C886E086C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kghandour/Projects/3D/Exercises/Exercise-0/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E80A8BE105040EDA22C3F39 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F0C60B10334DF4B58B3E89 /* Debug */,
+				FA313E7FE9334B2C886E086C /* Release */,
+				7950FABE4F964216B8918E0E /* MinSizeRel */,
+				6DD7D84DF40A4A52B93BCA28 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7637D614BE80427BAC1CE939 /* Build configuration list for PBXNativeTarget "lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84B65ACBEC74E1C8CD79DCB /* Debug */,
+				688942ECBFE340A2B21341A5 /* Release */,
+				652EC7FD69F64B2E9EAAD0E4 /* MinSizeRel */,
+				445C7DFECC1A46D2B99C6D88 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7B2869F7DEEB4B17912DC70A /* Build configuration list for PBXNativeTarget "app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5307491B79467BA89E98C3 /* Debug */,
+				ED530B2E53574C67B5162873 /* Release */,
+				9248B5CA5ECD46D9BF961D5C /* MinSizeRel */,
+				3BC90A8139F34086B0E2CF27 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E0007D7A581340E1B49082A9 /* Build configuration list for PBXProject "exercise_0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E0E2F016674A9E86545E07 /* Debug */,
+				69AD1D8C354640CAAB5511A3 /* Release */,
+				BB3F66B6191C4CAF928730F7 /* MinSizeRel */,
+				68624F993081414CBCFC0B78 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC0D6D93D4A14478ADE41F4C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3456452E064476489F62BFE /* Debug */,
+				A41EE070564A4615BF5BDF66 /* Release */,
+				E6E941A481D14BFDA38435D7 /* MinSizeRel */,
+				863C71C39FC54F0DA5270D8C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AB9E317C4A343E6AF2FAAB3 /* Project object */;
+}

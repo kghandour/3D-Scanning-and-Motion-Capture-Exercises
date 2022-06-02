@@ -1,0 +1,5 @@
+/Users/kghandour/Projects/3D/Exercises/Exercise-4/build/CMakeFiles/gaussian.dir
+/Users/kghandour/Projects/3D/Exercises/Exercise-4/build/CMakeFiles/dragon.dir
+/Users/kghandour/Projects/3D/Exercises/Exercise-4/build/CMakeFiles/surface.dir
+/Users/kghandour/Projects/3D/Exercises/Exercise-4/build/CMakeFiles/ALL_BUILD.dir
+/Users/kghandour/Projects/3D/Exercises/Exercise-4/build/CMakeFiles/ZERO_CHECK.dir

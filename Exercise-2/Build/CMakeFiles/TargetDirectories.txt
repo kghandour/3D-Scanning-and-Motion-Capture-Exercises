@@ -1,0 +1,3 @@
+/Users/kghandour/Projects/3D/Exercises/Exercise-2/Build/CMakeFiles/exercise_2.dir
+/Users/kghandour/Projects/3D/Exercises/Exercise-2/Build/CMakeFiles/ALL_BUILD.dir
+/Users/kghandour/Projects/3D/Exercises/Exercise-2/Build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,13 @@
+Target dependency graph (5 targets)
+ZERO_CHECK in exercise_4, no dependencies
+gaussian in exercise_4, depends on:
+ZERO_CHECK in exercise_4 (explicit)
+dragon in exercise_4, depends on:
+ZERO_CHECK in exercise_4 (explicit)
+surface in exercise_4, depends on:
+ZERO_CHECK in exercise_4 (explicit)
+ALL_BUILD in exercise_4, depends on:
+ZERO_CHECK in exercise_4 (explicit)
+gaussian in exercise_4 (explicit)
+dragon in exercise_4 (explicit)
+surface in exercise_4 (explicit)
