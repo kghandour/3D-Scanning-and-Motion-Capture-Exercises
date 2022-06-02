@@ -17,11 +17,7 @@ struct GaussianCostFunction
 	{
 		// TODO: Implement the cost function
 		residual[0] = T(0.0);
-//        residual[0]= T(2);
-//        std::cout << residual[0] << std::endl;
-        //std::cout<< pow(2,2) << mu[0]+sigma[0] << std::endl;
         residual[0] = (point.y -(  (T(1.)/(ceres::sqrt(T(2)*M_PI*ceres::pow(sigma[0],2)))) * ceres::exp(-T(1.)/(T(2.)*ceres::pow(sigma[0],2)) * (point.x-mu[0]) *(point.x-mu[0]))));
-//        std::cout << point.x << " " << point.y <<std::endl;
 		return true;
 	}
 
